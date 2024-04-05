@@ -1,0 +1,113 @@
+.corRoxa{
+
+color: #5d18dc;
+
+}
+body{
+
+background-color: black;
+
+
+}
+.sobremim {
+
+  
+  color: azure;
+  font-size: 140%;
+  margin-left: 14%;
+ 
+  
+
+}
+
+button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 29%;
+    padding: 17px 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 0;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all 0.5s ease;
+  }
+  
+  button:hover {
+    letter-spacing: 3px;
+    background-color: hsl(261deg 80% 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: #5d18dc 0px 7px 29px 0px;
+  }
+  
+  button:active {
+    letter-spacing: 3px;
+    background-color: #5d18dc;
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+  }
+  .NavBar {
+    padding: 10px ; /* Espaçamento interno superior e inferior */
+    margin-left: 40%;
+  }
+  
+  .NavBar a {
+    font-size: 150%;
+    display: inline-block; /* Transforma os links em blocos para aplicar espaçamento */
+    padding: 15px 25px; /* Espaçamento interno */
+    text-decoration: none; /* Remove a decoração do link */
+    color: white; /* Cor do texto */
+    background-color: #5d18dc;/* Cor de fundo dos links */
+    border-radius: 20px;
+  }
+  
+  .NavBar a:hover {
+    background-color: #5d18dc; /* Cor de fundo ao passar o mouse sobre o link */
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+    box-shadow: #5d18dc 0px 7px 29px 0px;
+  }
+.Inicio {
+    color: rgb(255, 255, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: calc();
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  #Apresentação {
+    text-align: left;
+    margin-top: 20%;
+    margin-left: 0%;
+    font-size: 350%;
+    color: white;
+  
+  
+  }
+.frame {
+    width: 450px; /* Diâmetro do círculo */
+    height: 450px; /* Diâmetro do círculo */
+    border-radius: 50%; /* Transforma a div em um círculo */
+    border: 5px solid #5d18dc; /* Cor e largura da borda */
+    overflow: hidden; /* Oculta partes da imagem que ultrapassam a moldura */
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    
+    margin-top: 100px;
+  }
+  
+  .photo {
+    width: 100%; /* Faz a imagem ocupar toda a largura da moldura */
+    height: 100%; /* Faz a imagem ocupar toda a altura da moldura */
+    object-fit: cover; /* Ajusta a imagem para cobrir a área da moldura */
+    border-radius: 50%; /* Mantém a imagem dentro do círculo */
+  }

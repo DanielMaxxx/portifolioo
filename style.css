@@ -1,0 +1,211 @@
+body {
+
+  background-color: black;
+}
+/* Estilos para a barra de navegação */
+.NavBar {
+  padding: 10px ; /* Espaçamento interno superior e inferior */
+  margin-left: 40%;
+}
+
+.NavBar a {
+  font-size: 150%;
+  display: inline-block; /* Transforma os links em blocos para aplicar espaçamento */
+  padding: 15px 25px; /* Espaçamento interno */
+  text-decoration: none; /* Remove a decoração do link */
+  color: white; /* Cor do texto */
+  background-color: #5d18dc;/* Cor de fundo dos links */
+  border-radius: 20px;
+}
+
+.NavBar a:hover {
+  background-color: #5d18dc; /* Cor de fundo ao passar o mouse sobre o link */
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+  transform: translateY(10px);
+  transition: 100ms;
+  box-shadow: #5d18dc 0px 7px 29px 0px;
+}
+
+
+
+
+
+.Inicio {
+  color: rgb(255, 255, 255);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: calc();
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#Apresentação {
+  text-align: left;
+  margin-top: 0%;
+  margin-left: 0%;
+  font-size: 350%;
+
+
+}
+
+.corRoxa {
+  color: hsl(261deg 80% 48%);
+}
+
+button {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 29%;
+  padding: 17px 40px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 0;
+  background-color: white;
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: all 0.5s ease;
+}
+
+button:hover {
+  letter-spacing: 3px;
+  background-color: hsl(261deg 80% 48%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: #5d18dc 0px 7px 29px 0px;
+}
+
+button:active {
+  letter-spacing: 3px;
+  background-color: #5d18dc;
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+  transform: translateY(10px);
+  transition: 100ms;
+}
+
+
+
+
+.social-buttons {
+  margin-left: 28%;
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  
+  background-color: #000000;
+  -webkit-box-shadow: 0px 0px 15px #00000027;
+  box-shadow: 0px 0px 15px #00000027;
+  padding: 15px 10px;
+  border-radius: 5em;
+}
+
+.social-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 0 10px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 4px #00000027;
+  box-shadow: 0px 0px 4px #00000027;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.social-button:hover {
+  background-color: #f2f2f2;
+  -webkit-box-shadow: 0px 0px 6px 3px #00000027;
+  box-shadow: 0px 0px 6px 3px #00000027;
+}
+
+.social-buttons svg {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  height: 20px;
+}
+
+.facebook {
+  background-color: #3b5998;
+}
+
+.facebook svg {
+  fill: #f2f2f2;
+}
+
+.facebook:hover svg {
+  fill: #3b5998;
+}
+
+.github {
+  background-color: #333;
+}
+
+.github svg {
+  width: 25px;
+  height: 25px;
+  fill: #f2f2f2;
+}
+
+.github:hover svg {
+  fill: #333;
+}
+
+.linkedin {
+  background-color: #0077b5;
+}
+
+.linkedin svg {
+  fill: #f2f2f2;
+}
+
+.linkedin:hover svg {
+  fill: #0077b5;
+}
+
+.instagram {
+  background-color: #c13584;
+}
+
+.instagram svg {
+  fill: #f2f2f2;
+}
+
+.instagram:hover svg {
+  fill: #c13584;
+}
+
+.frame {
+  width: 450px; /* Diâmetro do círculo */
+  height: 450px; /* Diâmetro do círculo */
+  border-radius: 50%; /* Transforma a div em um círculo */
+  border: 5px solid #5d18dc; /* Cor e largura da borda */
+  overflow: hidden; /* Oculta partes da imagem que ultrapassam a moldura */
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  margin-right: 10%;
+  margin-top: 70px;
+}
+
+.photo {
+  width: 100%; /* Faz a imagem ocupar toda a largura da moldura */
+  height: 100%; /* Faz a imagem ocupar toda a altura da moldura */
+  object-fit: cover; /* Ajusta a imagem para cobrir a área da moldura */
+  border-radius: 50%; /* Mantém a imagem dentro do círculo */
+}
