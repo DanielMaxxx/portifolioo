@@ -5,7 +5,7 @@ body {
 /* Estilos para a barra de navegação */
 .NavBar {
   padding: 10px ; /* Espaçamento interno superior e inferior */
-  margin-left: 40%;
+  text-align: center;
 }
 
 .NavBar a {
